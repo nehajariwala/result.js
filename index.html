@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Result</title>
+   
+</head>
+<body>
+  <style>
+    form{
+      background-image: url("https://img.freepik.com/free-photo/workplace-arrangement-purple-background-with-copy-space_23-2148404536.jpg?w=1380&t=st=1713500262~exp=1713500862~hmac=d3a21b246f1b26ef162ae58a581efbbd875b4e7b456275c99a14e2433a04cf33");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 450px;
+      width: 600px;
+      margin-left: 600px;
+      margin-top: 50px;
+      
+      box-shadow: 0 0 10px black;
+    }
+    h1{
+    color:black;
+    padding: 10px;
+    text-transform:uppercase;
+    
+    }
+    form input{
+     border-radius: 10px ;
+     padding: 5px 20px 5px 5px;
+     font-weight: 800;
+     box-shadow: 0 0 5px black;
+    }
+    table{
+      margin-top: 20px;
+    }
+  </style>
+    <form id="form" style="text-align: center;">
+        <h1>Student form</h1>
+        <input type="text" placeholder="name" id="name"><br><br>
+        <input type="number" placeholder="Roll_number" id="number"><br><br>
+        <input type="number" placeholder="Hindi" id="Hindi"><br><br>
+        <input type="number" placeholder="English" id="English"><br><br>
+        <input type="number" placeholder="Math" id="Math"><br><br>
+        <input type="submit">
+    </form>
+    <br><br>
+    <table class="table">
+        <thead>
+          <tr> 
+            <!-- <th scope="col">sr_no</th> -->
+            <th scope="col">name</th>
+            <th scope="col">roll_number</th>
+            <th scope="col">Hindi</th>
+            <th scope="col">English</th>
+            <th scope="col">Math</th>
+            <th scope="col">T-Score</th>
+            <th scope="col" id="fail">result</th>
+            
+            <th scope="col">update</th>
+            <th scope="col">delete</th>
+            
+          </tr>
+        </thead>
+        <tbody id="box">
+         
+        </tbody>
+      </table>
+
+
+
+
+
+   <script src="./index.js"></script> 
+</body>
+</html>

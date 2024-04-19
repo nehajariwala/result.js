@@ -1,0 +1,48 @@
+{
+  "student": [
+    {
+      "id": "9562",
+      "name": "fsdf",
+      "number": "1",
+      "Hindi": "77",
+      "English": "77",
+      "Math": "77"
+    },
+    {
+      "id": "9ab1",
+      "name": "nnn",
+      "number": "6",
+      "Hindi": "88",
+      "English": "88",
+      "Math": "88"
+    },
+    {
+      "id": "6a6a",
+      "name": "Yug sakariya",
+      "number": "7",
+      "Hindi": "77",
+      "English": "77",
+      "Math": "77"
+    },
+   
+    
+    {
+      "id": "18cd",
+      "name": "uu",
+      "number": "111",
+      "Hindi": "88",
+      "English": "88",
+      "Math": "88"
+    },
+    
+    
+    {
+      "id": "f005",
+      "name": "Yug sakariya",
+      "number": "5",
+      "Hindi": "55",
+      "English": "55",
+      "Math": "55"
+    }
+  ]
+}
